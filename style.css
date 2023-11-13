@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body {
+
+    background-color: #595959;
+    height: 100vh;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding-top: 26px;
+    padding-left: 89px;
+    padding-right: 120px;
+}
+
+.header ul {
+    display: flex;
+
+}
+
+#menu1 {
+    padding-left: 89px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #E7FF85;
+}
+
+.header li {
+    padding-left: 89px;
+
+}
+
+.headings-texto {
+    display: flex;
+    width: 425px;
+    flex-shrink: 0;
+    display: flex;
+    background: linear-gradient(90deg, #161515 1.7%, #161616 18.27%, #1D1D1D 34.17%, #1E1E1E 66.63%);
+}
+
+#lateral{
+    width: 425px; 
+    background: linear-gradient(90deg, #161515 1.7%, #161616 18.27%, #1D1D1D 34.17%, #1E1E1E 66.63%);
+
+}
+
+.nome-lateral {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 147px;
+    padding-right: 147px;
+    padding-top: 26px;
+    display: flex;
+}
+
+#foto1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+#texto-lateral h1 {
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  padding-top: 400px;
+  padding-right: 500px;
+
+}
